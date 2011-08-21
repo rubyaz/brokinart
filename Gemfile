@@ -5,6 +5,9 @@ gem 'rails', '3.0.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+# carrierwave gem for image uploading
+gem 'carrierwave'
+
 gem 'sqlite3'
 
 # Use unicorn as the web server
