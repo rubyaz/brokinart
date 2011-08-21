@@ -9,6 +9,7 @@ gem 'rails', '3.0.9'
 gem 'carrierwave'
 
 gem 'sqlite3'
+gem 'haml'
 
 # Use unicorn as the web server
 # gem 'unicorn'
