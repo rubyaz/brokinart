@@ -1,4 +1,6 @@
 Brokinart::Application.routes.draw do
+  resources :artists
+
   resources :materials
 
   resources :products
