@@ -1,5 +1,6 @@
 class Product < ActiveRecord::Base
   has_and_belongs_to_many :materials
+  has_many :artists, :through => :artist_roles
 
   def material_list
     materials.collect{|m| m.name}.join(', ')
